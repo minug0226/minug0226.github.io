@@ -5,7 +5,7 @@ excerpt: "visual Studio Code 꿀팁"
 categories:
   - DevTip
 tags:
-  - [VScode, DevTip]
+  - [VScode]
 
 toc: true
 toc_sticky: true

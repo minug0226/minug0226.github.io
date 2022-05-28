@@ -1,7 +1,7 @@
 ---
 title: "FrameWork"
 layout: archive
-permalink: categories/FrameWork
+permalink: categories/framework
 author_profile: true
 sidebar_main: true
 ---

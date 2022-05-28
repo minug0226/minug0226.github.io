@@ -1,7 +1,7 @@
 ---
 title: "웹 관련 지식"
 layout: archive
-permalink: categories/Web
+permalink: categories/web
 author_profile: true
 sidebar_main: true
 ---

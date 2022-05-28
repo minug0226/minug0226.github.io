@@ -1,7 +1,7 @@
 ---
 title: "Node"
 layout: archive
-permalink: categories/Node
+permalink: categories/node
 author_profile: true
 sidebar_main: true
 ---

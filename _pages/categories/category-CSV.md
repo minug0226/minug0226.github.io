@@ -1,7 +1,7 @@
 ---
 title: "CSV"
 layout: archive
-permalink: categories/CSV
+permalink: categories/csv
 author_profile: true
 sidebar_main: true
 ---

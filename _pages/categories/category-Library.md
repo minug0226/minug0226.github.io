@@ -1,7 +1,7 @@
 ---
 title: "Library"
 layout: archive
-permalink: categories/Library
+permalink: categories/library
 author_profile: true
 sidebar_main: true
 ---

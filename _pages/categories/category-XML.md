@@ -1,7 +1,7 @@
 ---
 title: "XML"
 layout: archive
-permalink: categories/XML
+permalink: categories/xml
 author_profile: true
 sidebar_main: true
 ---

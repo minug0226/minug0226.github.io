@@ -1,7 +1,7 @@
 ---
 title: "Express"
 layout: archive
-permalink: categories/Express
+permalink: categories/express
 author_profile: true
 sidebar_main: true
 ---

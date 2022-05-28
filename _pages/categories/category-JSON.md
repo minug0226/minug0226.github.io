@@ -1,7 +1,7 @@
 ---
 title: "JSON"
 layout: archive
-permalink: categories/JSON
+permalink: categories/json
 author_profile: true
 sidebar_main: true
 ---

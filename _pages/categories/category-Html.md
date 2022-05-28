@@ -1,7 +1,7 @@
 ---
 title: "프로그래머스 SQL"
 layout: archive
-permalink: categories/Html
+permalink: categories/html
 author_profile: true
 sidebar_main: true
 ---

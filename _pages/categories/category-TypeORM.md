@@ -1,7 +1,7 @@
 ---
 title: "TypeORM"
 layout: archive
-permalink: categories/TypeORM
+permalink: categories/typeorm
 author_profile: true
 sidebar_main: true
 ---

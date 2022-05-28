@@ -1,7 +1,7 @@
 ---
 title: "JavaScript"
 layout: archive
-permalink: categories/JavaScript
+permalink: categories/javascript
 author_profile: true
 sidebar_main: true
 ---

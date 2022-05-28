@@ -5,7 +5,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
       <li>
-            � <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+           🧐<span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <!-- 전체 글 수 표현을 위한 코드입니다. -->
       <li>
@@ -13,14 +13,14 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "JavaScript" %}
-                    <li><a href="/categories/JavaScript" class="">JavaScript ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
+                    <li><a href="/categories/javaScript" class="">JavaScript ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "TypeScript" %}
-                    <li><a href="/categories/TypeScript" class="">TypeScript ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
+                    <li><a href="/categories/typeScript" class="">TypeScript ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
                 {% endif %}
             {% endfor %}
         </ul>
@@ -29,14 +29,14 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Library" %}
-                    <li><a href="/categories/Library" class="">Library ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
+                    <li><a href="/categories/library" class="">Library ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "FrameWork" %}
-                    <li><a href="/categories/FrameWork" class="">FrameWork ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
+                    <li><a href="/categories/framework" class="">FrameWork ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
                 {% endif %}
             {% endfor %}
         </ul>
@@ -44,7 +44,7 @@
         <span class="nav__sub-title">BOOTCAMP</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "codestates" %}
+                {% if category[0] == "CodeStates" %}
                     <li><a href="/categories/codestates" class="">CodeStates ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
                 {% endif %}
             {% endfor %}
@@ -54,7 +54,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CSS" %}
-                        <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
+                        <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li> <!-- caregory[1].size 로 글의 개수 표시 -->
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -63,7 +63,7 @@
 <ul>
     {% for category in site.categories %}
         {% if category[0] == "Html" %}
-            <li><a href="/categories/Html" class="">HTML ({{category[1].size}})</a></li>
+            <li><a href="/categories/html" class="">HTML ({{category[1].size}})</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -79,28 +79,28 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure" %}
-                        <li><a href="/categories/DataStructure" class="">자료구조 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/datastructure" class="">자료구조 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/Algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Web" %}
-                        <li><a href="/categories/Web" class="">웹 관련 지식 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/web" class="">웹 관련 지식 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CS" %}
-                        <li><a href="/categories/CS" class="">CS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cs" class="">CS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -109,28 +109,28 @@
 <ul>
     {% for category in site.categories %}
         {% if category[0] == "Node" %}
-            <li><a href="/categories/Node" class="">Node ({{category[1].size}})</a></li>
+            <li><a href="/categories/node" class="">Node ({{category[1].size}})</a></li>
         {% endif %}
     {% endfor %}
 </ul>
 <ul>
     {% for category in site.categories %}
         {% if category[0] == "Express" %}
-            <li><a href="/categories/Express" class="">Express ({{category[1].size}})</a></li>
+            <li><a href="/categories/express" class="">Express ({{category[1].size}})</a></li>
         {% endif %}
     {% endfor %}
 </ul>
 <ul>
     {% for category in site.categories %}
         {% if category[0] == "Sequelize" %}
-            <li><a href="/categories/Sequelize" class="">Sequelize ({{category[1].size}})</a></li>
+            <li><a href="/categories/sequelize" class="">Sequelize ({{category[1].size}})</a></li>
         {% endif %}
     {% endfor %}
 </ul>
 <ul>
     {% for category in site.categories %}
         {% if category[0] == "TypeORM" %}
-            <li><a href="/categories/TypeORM" class="">TypeORM ({{category[1].size}})</a></li>
+            <li><a href="/categories/typeorm" class="">TypeORM ({{category[1].size}})</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -139,21 +139,21 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "JSON" %}
-                        <li><a href="/categories/JSON" class="">JSON({{category[1].size}})</a></li>
+                        <li><a href="/categories/json" class="">JSON({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CSV" %}
-                        <li><a href="/categories/CSV" class="">CSV ({{category[1].size}})</a></li>
+                        <li><a href="/categories/csv" class="">CSV ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "XML" %}
-                        <li><a href="/categories/XML" class="">XML ({{category[1].size}})</a></li>
+                        <li><a href="/categories/xml" class="">XML ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -162,21 +162,21 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataBase" %}
-                        <li><a href="/categories/DataBase" class="">DataBase ({{category[1].size}})</a></li>
+                        <li><a href="/categories/database" class="">DataBase ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "MySQL" %}
-                        <li><a href="/categories/MySQL" class="">MySQL ({{category[1].size}})</a></li>
+                        <li><a href="/categories/mysql" class="">MySQL ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "MongoDB" %}
-                        <li><a href="/categories/MongoDB" class="">MongoDB({{category[1].size}})</a></li>
+                        <li><a href="/categories/mongodb" class="">MongoDB({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -186,7 +186,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Git" %}
-                        <li><a href="/categories/Git" class="">Git & Github ({{category[1].size}})</a></li>
+                        <li><a href="/categories/git" class="">Git & Github ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -195,7 +195,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "AWS" %}
-                        <li><a href="/categories/AWS" class="">AWS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/aws" class="">AWS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -210,15 +210,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "itnews" %}
+                    {% if category[0] == "ITNews" %}
                         <li><a href="/categories/itnews" class="">IT 관련({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DEVTIP" %}
-                        <li><a href="/categories/devtip" class="">Dev Tip ({{category[1].size}})</a></li>
+                    {% if category[0] == "DevTip %}
+                        <li><a href="/categories/devtip" class="">DevTip ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

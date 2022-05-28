@@ -1,7 +1,7 @@
 ---
 title: "DataBase"
 layout: archive
-permalink: categories/DataBase
+permalink: categories/database
 author_profile: true
 sidebar_main: true
 ---

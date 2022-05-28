@@ -1,7 +1,7 @@
 ---
 title: "AWS"
 layout: archive
-permalink: categories/AWS
+permalink: categories/aws
 author_profile: true
 sidebar_main: true
 ---
